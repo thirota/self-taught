@@ -23,7 +23,7 @@ def hangman(word):
 
     while wrong < len(stages) - 1:
         print("\n")
-        msg = "Please think a char"
+        msg = "Please think a char: "
         char = input(msg)
         if char in rletters:
             cind = rletters.index(char)
