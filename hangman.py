@@ -4,7 +4,11 @@
 # 2022.5.30
 #
 
+import random
 
+#
+# Function
+#
 def hangman(word):
     wrong = 0
     stages = ["",
@@ -45,7 +49,16 @@ def hangman(word):
         print("You lose... answer is {}.".format(word))
 
 
-hangman("cat")
+#
+# Configuration
+#
+# words list
+words = ("dog","horse","frog","cat","pig","bird","cow","mouse","tiger","lion")
+
+#
+# Main
+#
+# decide target word and start game
+index = random.randint(0, len(words))
+hangman(words[index])
     
-
-
