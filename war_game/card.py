@@ -38,7 +38,7 @@ class Card:
 
     # print()
     def __repr__(self):
-       v = self.values[self.value] + " of " + self.suits[self.suit]
+       v = Card.values[self.value] + " of " + Card.suits[self.suit]
        return v 
 
 
