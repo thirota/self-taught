@@ -23,6 +23,7 @@ class Deck:
 
     def rm_card(self):
 
+        # None when cards is empty
         if len(self.cards) == 0:
             return
 
