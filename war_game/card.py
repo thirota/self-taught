@@ -43,6 +43,7 @@ class Card:
 
 
 # DEBUG
+"""
 spade_one = Card(14, 0)
 print(spade_one)
 heart_four = Card(4, 1)
@@ -51,3 +52,4 @@ diamond_king = Card(13, 2)
 print(diamond_king)
 club_eight = Card(8, 3)
 print(club_eight)
+"""

@@ -8,8 +8,10 @@ class Player:
 
 
 # DEBUG
+"""
 player = Player("Nobita")
 print(player.name)
  
 player2 = Player("Shizuka")
 print(player2.name)
+"""

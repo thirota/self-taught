@@ -32,6 +32,7 @@ class Deck:
 
 
 # DEBUG
+"""
 deck = Deck()
 print(len(deck.cards))
 for card in deck.cards:
@@ -44,4 +45,4 @@ print(len(deck.cards))
 card = deck.rm_card()
 print(card)
 print(len(deck.cards))
-
+"""
