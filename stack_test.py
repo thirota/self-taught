@@ -62,3 +62,13 @@ print(stack.is_empty())
 print(stack.size())
 print(stack)
 print("----------")
+
+
+charStack = Stack()
+for c in "Hello":
+    charStack.push(c)
+
+reverse = ""
+while charStack.size():
+    reverse += charStack.pop()
+print(reverse)
