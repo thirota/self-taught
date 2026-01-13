@@ -59,6 +59,6 @@ words = ("dog","horse","frog","cat","pig","bird","cow","mouse","tiger","lion")
 # Main
 #
 # decide target word and start game
-index = random.randint(0, len(words))
-hangman(words[index])
+word = random.choice(words)
+hangman(word)
     
